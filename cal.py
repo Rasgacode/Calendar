@@ -22,6 +22,7 @@ def sort_meetings(table):
                 table[i] = table[j]
                 table[j] = temp
 
+
 def compact_meetings(table):
     for i in range(2, len(table), 3):
         start_time = int(table[i])
@@ -140,5 +141,4 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
-    
+    main() 
